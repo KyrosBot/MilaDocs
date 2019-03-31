@@ -1,0 +1,1246 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Documentation on Mila Bot can be found here.">
+      
+      
+      
+        <meta name="author" content="Mila Software">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.2">
+    
+    
+      
+        <title>Configs - Mila</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.982221ab.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700|Ubuntu+Mono">
+        <style>body,input{font-family:"Nunito","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#config-documentation" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Mila" class="md-header-nav__button md-logo">
+          
+            <img src="../images/logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Mila
+            </span>
+            <span class="md-header-nav__topic">
+              Configs
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../blacklisting/" title="Configuration" class="md-tabs__link md-tabs__link--active">
+          Configuration
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../bugs-suggestions/" title="Usage" class="md-tabs__link">
+          Usage
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Mila" class="md-nav__button md-logo">
+      
+        <img src="../images/logo.png" width="48" height="48">
+      
+    </a>
+    Mila
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      Configuration
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Configuration
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../blacklisting/" title="Blacklisting" class="md-nav__link">
+      Blacklisting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2">
+    
+    <label class="md-nav__link" for="nav-1-2">
+      Captchas
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-2">
+        Captchas
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../captcha-setup/" title="Setup" class="md-nav__link">
+      Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../captcha-usage/" title="Usage" class="md-nav__link">
+      Usage
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Configs
+      </label>
+    
+    <a href="./" title="Configs" class="md-nav__link md-nav__link--active">
+      Configs
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-settings" title="Basic Settings" class="md-nav__link">
+    Basic Settings
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#custom-prefix" title="Custom Prefix" class="md-nav__link">
+    Custom Prefix
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-greeting" title="Custom Greeting" class="md-nav__link">
+    Custom Greeting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-goodbye" title="Custom Goodbye" class="md-nav__link">
+    Custom Goodbye
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#config-resetting" title="Config Resetting" class="md-nav__link">
+    Config Resetting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automatic-setup" title="Automatic Setup" class="md-nav__link">
+    Automatic Setup
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging-module" title="Logging Module" class="md-nav__link">
+    Logging Module
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mod-logging" title="Mod Logging" class="md-nav__link">
+    Mod Logging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-logging" title="User Logging" class="md-nav__link">
+    User Logging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#message-logging" title="Message Logging" class="md-nav__link">
+    Message Logging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-logging" title="Action Logging" class="md-nav__link">
+    Action Logging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#log-layout" title="Log Layout" class="md-nav__link">
+    Log Layout
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#role-management" title="Role Management" class="md-nav__link">
+    Role Management
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bot-role" title="Bot Role" class="md-nav__link">
+    Bot Role
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#human-role" title="Human Role" class="md-nav__link">
+    Human Role
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#muted-role" title="Muted Role" class="md-nav__link">
+    Muted Role
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moderator-role" title="Moderator Role" class="md-nav__link">
+    Moderator Role
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#administrator-role" title="Administrator Role" class="md-nav__link">
+    Administrator Role
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#role-layout" title="Role Layout" class="md-nav__link">
+    Role Layout
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moderation-management" title="Moderation Management" class="md-nav__link">
+    Moderation Management
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#violation-limit" title="Violation Limit" class="md-nav__link">
+    Violation Limit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#violation-action" title="Violation Action" class="md-nav__link">
+    Violation Action
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anti-invite" title="Anti Invite" class="md-nav__link">
+    Anti Invite
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anti-porn" title="Anti Porn" class="md-nav__link">
+    Anti Porn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anti-hoist" title="Anti Hoist" class="md-nav__link">
+    Anti Hoist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anti-spam" title="Anti Spam" class="md-nav__link">
+    Anti Spam
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Setup" class="md-nav__link">
+      Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-5" type="checkbox" id="nav-1-5">
+    
+    <label class="md-nav__link" for="nav-1-5">
+      Starboards
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-5">
+        Starboards
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../starboard-setup/" title="Setup" class="md-nav__link">
+      Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../starboard-usage/" title="Usage" class="md-nav__link">
+      Usage
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Usage
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Usage
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bugs-suggestions/" title="Bugs & Suggestions" class="md-nav__link">
+      Bugs & Suggestions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Commands
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Commands
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../badge/" title="Badge" class="md-nav__link">
+      Badge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../captcha/" title="Captcha" class="md-nav__link">
+      Captcha
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../general/" title="General" class="md-nav__link">
+      General
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../info/" title="Info" class="md-nav__link">
+      Info
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mod/" title="Mod" class="md-nav__link">
+      Mod
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../music/" title="Music" class="md-nav__link">
+      Music
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nsfw/" title="NSFW" class="md-nav__link">
+      NSFW
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../starboard/" title="Starboard" class="md-nav__link">
+      Starboard
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../common-errors/" title="Common Errors" class="md-nav__link">
+      Common Errors
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-settings" title="Basic Settings" class="md-nav__link">
+    Basic Settings
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#custom-prefix" title="Custom Prefix" class="md-nav__link">
+    Custom Prefix
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-greeting" title="Custom Greeting" class="md-nav__link">
+    Custom Greeting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-goodbye" title="Custom Goodbye" class="md-nav__link">
+    Custom Goodbye
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#config-resetting" title="Config Resetting" class="md-nav__link">
+    Config Resetting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automatic-setup" title="Automatic Setup" class="md-nav__link">
+    Automatic Setup
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging-module" title="Logging Module" class="md-nav__link">
+    Logging Module
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mod-logging" title="Mod Logging" class="md-nav__link">
+    Mod Logging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-logging" title="User Logging" class="md-nav__link">
+    User Logging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#message-logging" title="Message Logging" class="md-nav__link">
+    Message Logging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-logging" title="Action Logging" class="md-nav__link">
+    Action Logging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#log-layout" title="Log Layout" class="md-nav__link">
+    Log Layout
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#role-management" title="Role Management" class="md-nav__link">
+    Role Management
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bot-role" title="Bot Role" class="md-nav__link">
+    Bot Role
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#human-role" title="Human Role" class="md-nav__link">
+    Human Role
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#muted-role" title="Muted Role" class="md-nav__link">
+    Muted Role
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moderator-role" title="Moderator Role" class="md-nav__link">
+    Moderator Role
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#administrator-role" title="Administrator Role" class="md-nav__link">
+    Administrator Role
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#role-layout" title="Role Layout" class="md-nav__link">
+    Role Layout
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moderation-management" title="Moderation Management" class="md-nav__link">
+    Moderation Management
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#violation-limit" title="Violation Limit" class="md-nav__link">
+    Violation Limit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#violation-action" title="Violation Action" class="md-nav__link">
+    Violation Action
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anti-invite" title="Anti Invite" class="md-nav__link">
+    Anti Invite
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anti-porn" title="Anti Porn" class="md-nav__link">
+    Anti Porn
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anti-hoist" title="Anti Hoist" class="md-nav__link">
+    Anti Hoist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anti-spam" title="Anti Spam" class="md-nav__link">
+    Anti Spam
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="config-documentation">Config Documentation</h1>
+<h2 id="basic-settings">Basic Settings</h2>
+<p>Mila has a handful of basic configuration settings, currently they are:
+<ul>
+    <li>Custom Prefixes</li>
+    <li>Custom Greeting</li>
+    <li>Custom Goodbye</li>
+</ul>
+These can be used for general purposes and aren't entirely necessary.</p>
+<h3 id="custom-prefix">Custom Prefix</h3>
+<p>Mila has the ability to set a single custom prefix for every guild. This setting will replace the default prefix of <code>m.</code> with the prefix you choose. In case you and everyone else in the server forgets the prefix you set, you can always use <code>@Mila#6910</code> instead. This setting can be changed with <code>m.config -prefix &lt;prefix&gt;</code>.</p>
+<p><img alt="Prefix" src="../images/config-1.png" /></p>
+<h3 id="custom-greeting">Custom Greeting</h3>
+<p>Mila has a setting that allows you to change the message displayed in user logs to whatever you want. To prevent spam the message can't be any longer than 300 characters, including spaces and non-ascii text. This setting has a series of dynamic variables, they are:
+<ul>
+    <li><code>{user}</code> - Username &amp; tag</li>
+    <li><code>{user.mention}</code> - Username mention</li>
+    <li><code>{server}</code> - Server name</li>
+</ul>
+To change this setting, you must use <code>m.config -greeting &lt;message&gt;</code>.</p>
+<p><img alt="Gretting" src="../images/config-2.png" /></p>
+<h3 id="custom-goodbye">Custom Goodbye</h3>
+<p>This setting is the same as greeting messages except it is displayed when a user leaves. To change this setting, you must use <code>m.config -goodbye &lt;message&gt;</code>.</p>
+<p><img alt="Goodbye" src="../images/config-3.png" /></p>
+<h3 id="config-resetting">Config Resetting</h3>
+<p>Resetting Mila's configuration is really simple, you can reset everything with <code>m.config -reset</code>.</p>
+<p><img alt="Reset" src="../images/config-4.png" /></p>
+<h3 id="automatic-setup">Automatic Setup</h3>
+<p>If you're struggling with configuration, Mila has a useful command that will re-create the recommended configuration for you! This is done using <code>m.config -autosetup</code> and will take about 5 seconds to finish.</p>
+<p><img alt="Auto" src="../images/config-5.png" /></p>
+<hr />
+<h2 id="logging-module">Logging Module</h2>
+<p>Mila has 4 logging systems built-into it, the three types of logging include:
+<ul>
+    <li>Message logging</li>
+    <li>Mod logging</li>
+    <li>User logging</li>
+    <li>Action logging</li>
+</ul>
+These can come in handy for people that like to keep a record of all the things that happen in their server. To change a logging channel, simply do <code>m.config -logs -&lt;log type&gt; &lt;channel&gt;</code>.</p>
+<h3 id="mod-logging">Mod Logging</h3>
+<p>Mila's mod logging can be controlled via <code>m.config -logs -mod &lt;channel&gt;</code>. Mod-logs are created every time a user is:
+<ul>
+    <li>Warned</li>
+    <li>Kicked</li>
+    <li>Muted</li>
+    <li>Unmuted</li>
+    <li>Banned</li>
+    <li>Unbanned</li>
+</ul></p>
+<p><img alt="Mod" src="../images/config-6.png" /></p>
+<h3 id="user-logging">User Logging</h3>
+<p>Mila's user logging can be controlled via <code>m.config -logs -user &lt;channel&gt;</code>. User-logs are created every time a user:
+<ul>
+    <li>Joins</li>
+    <li>Leaves</li>
+</ul></p>
+<p><img alt="User" src="../images/config-7.png" /></p>
+<h3 id="message-logging">Message Logging</h3>
+<p>Mila's message logging can be controlled via <code>m.config -logs -msg &lt;channel&gt;</code>. Message-logs are created every time a message is:
+<ul>
+    <li>Deleted</li>
+    <li>Edited</li>
+</ul></p>
+<p><img alt="Message" src="../images/config-8.png" /></p>
+<h3 id="action-logging">Action Logging</h3>
+<p>Mila's action logging can be controlled via <code>m.config -logs -action &lt;channel&gt;</code>. Action-logs are created every time a channel, role or guild setting is:
+<ul>
+    <li>Created</li>
+    <li>Deleted</li>
+    <li>Edited</li>
+</ul></p>
+<p><img alt="Action" src="../images/config-9.png" /></p>
+<h3 id="log-layout">Log Layout</h3>
+<p>The team has come up with a recommended log layout that they suggest novice user's follow to keep everything simple for them.</p>
+<p><img alt="Logs" src="../images/config-10.png" /></p>
+<hr />
+<h2 id="role-management">Role Management</h2>
+<p>Mila has 5 different role management systems, each role assigned to each of the five systems plays a significant role in many of Mila's other systems, like moderation. Here is a list of all four different role options:
+<ul>
+    <li>Bot role</li>
+    <li>Human role</li>
+    <li>Muted role</li>
+    <li>Moderator role</li>
+    <li>Administrator role</li>
+</ul>
+Roles can be controlled via <code>m.config -roles -&lt;role type&gt; &lt;@role&gt;</code>.</p>
+<h3 id="bot-role">Bot Role</h3>
+<p>When given a specific role to assign, Mila will automatically give a bot account said role once it joins the server, it can be changed with <code>m.config -roles -bot &lt;@role&gt;</code>.</p>
+<p><img alt="Bot" src="../images/config-11.png" /></p>
+<h3 id="human-role">Human Role</h3>
+<p>When given a specific role to assign, Mila will automatically give a human account said role once it joins the server, it can be changed with <code>m.config -roles -human &lt;@role&gt;</code>.</p>
+<p><img alt="Human" src="../images/config-12.png" /></p>
+<h3 id="muted-role">Muted Role</h3>
+<p>Assigning a muted-role allows Mila to hand users this role when they are muted, typically this role should not have the ability to speak in general channels else it defeats the point of being muted. This role is controlled using <code>m.config -roles -muted &lt;@role&gt;</code>. If this role isn't configured when a mod attempts to mute a user, Mila attempts to find a role called <code>Muted</code> in your server and assign that instead.</p>
+<p><img alt="Muted" src="../images/config-13.png" /></p>
+<h3 id="moderator-role">Moderator Role</h3>
+<p>By assigning a Moderator role you are essentially assigning everyone with that role as a Moderator, thus allowing them to use most of Mila's moderation commands, however some are limited to Administrators and above. This role is controlled via <code>m.config -roles -mod &lt;@role&gt;</code>. When a user has the Moderator role, their perks are:
+<ul>
+    <li>Access to moderation commands without requiring specific permissions</li>
+    <li>Bypasses the <code>&lt;Mila:NoCmd&gt;</code> setting</li>
+    <li>Bypasses the auto-moderator functionality</li>
+</ul></p>
+<p><img alt="Mod" src="../images/config-14.png" /></p>
+<h3 id="administrator-role">Administrator Role</h3>
+<p>An Administrator role is something that should be chosen carefully, users with the Administrator role have the ability to change configurations and do just about anything with Mila. This role is assigned via <code>m.config -roles -admin &lt;@role&gt;</code>.</p>
+<p><img alt="Admin" src="../images/config-15.png" /></p>
+<h3 id="role-layout">Role Layout</h3>
+<p>A recommended role layout has been designed by the Mila developers as it ensures that all roles work correctly, this doesn't mean that other roles can't be there, this is just a demonstration of the order of Mila's roles.</p>
+<p><img alt="Roles" src="../images/config-16.png" /></p>
+<hr />
+<h2 id="moderation-management">Moderation Management</h2>
+<p>Mila comes built in with some handy auto-moderation features these features essentially allow the bot to punish users if they do a certain thing.</p>
+<h3 id="violation-limit">Violation Limit</h3>
+<p>This setting allows you to control how many times a user can trigger auto-mod except for Anti-Hoist in 10 minutes. This value must be above 0 else Mila will send an error. If this limit is hit, Mila will preform the configured action. This setting is controlled using <code>m.config -anti -violations &lt;number&gt;</code>.</p>
+<p><img alt="Limit" src="../images/config-21.png" /></p>
+<h3 id="violation-action">Violation Action</h3>
+<p>This setting allows you to control what action is performed on a user when they exceed the specified number of auto-mod violations, this can only be one of Ban, Kick &amp; Mute. This setting is controlled using <code>m.config -anti -action</code>.</p>
+<p><img alt="Action" src="../images/config-22.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Anti-invite sets a nickname for user's whose nickname contains an invite link. Anti-porn also sets a nickname for user's whose nickname contains a pornographic link.</p>
+</div>
+<h3 id="anti-invite">Anti Invite</h3>
+<p>Enabling this will ensure that Mila deletes every Discord server invite that a non-staff user sends, regardless whether the invite is valid or not.</p>
+<p><img alt="Invites" src="../images/config-17.png" /></p>
+<h3 id="anti-porn">Anti Porn</h3>
+<p>Anti-porn removes pornographic links sent outside of channels marked as NSFW. This doesn't tend to get much use but for very large servers it can be necessary.</p>
+<p><img alt="Porn" src="../images/config-18.png" /></p>
+<h3 id="anti-hoist">Anti Hoist</h3>
+<p>This setting automatically removes nicknames contain hoisting or Zalgo content, which is useful if your server's policy involves mentionable nicknames.</p>
+<p><img alt="Hoist" src="../images/config-19.png" /></p>
+<h3 id="anti-spam">Anti Spam</h3>
+<p>Anti-spam is, without a doubt, one of the most essential auto-moderation settings out there. If a user sends 5 messages consecutively within a 5 second time frame, the messages are removed and the perpetrator is handed a warning from Mila.</p>
+<p><img alt="Spam" src="../images/config-20.png" /></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../captcha-usage/" title="Usage" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Usage
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href=".." title="Setup" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Setup
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            &copy; Mila Software | All Rights Reserved
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/MilaBot" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://milabot.xyz" class="md-footer-social__link fa fa-globe"></a>
+    
+      <a href="https://discord.gg/gDcqBJJ" class="md-footer-social__link fa fa-life-ring"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.d9aa80ab.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
